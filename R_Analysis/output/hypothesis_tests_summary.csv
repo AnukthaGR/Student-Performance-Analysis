@@ -1,0 +1,6 @@
+Test,Statistic,p_value,Decision
+t-Test: Gender vs Grade,2.062,0.0399,Reject H0
+ANOVA: Study Time vs Grade,1.7278,0.1607,Fail to Reject H0
+Chi-Square: Internet vs Pass/Fail,1.1762,0.2781,Fail to Reject H0
+Pearson Corr: Study Time vs Grade,0.0978,0.052061,Fail to Reject H0
+Shapiro-Wilk: Normality of Grade,0.92873,0.0,Reject H0

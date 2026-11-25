@@ -1,0 +1,5 @@
+Model,R_Squared,Accuracy,F1_Score,AUC_ROC
+Simple LR (G3~G1),0.6424,-,-,-
+Multiple LR (10 vars),0.832,-,-,-
+KNN (K=1),-,0.8608,0.8972,-
+Logistic Regression,-,0.8987,0.9216,0.9722

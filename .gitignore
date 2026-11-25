@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Matplotlib cache
+R_Analysis/output/mpl_cache/
+
+# R temp files
+*.Rhistory
+*.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large zip (dataset already has CSVs)
+dataset/student.zip
