@@ -1,11 +1,19 @@
-# Tell GitHub Linguist to treat this as an R project
+# =====================================================
+# Force GitHub to recognize this as an R project
+# =====================================================
 
-# Exclude Jupyter notebooks from language detection
-*.ipynb linguist-detectable=false
+# Completely exclude Jupyter notebooks
+*.ipynb linguist-vendored=true
 
-# Exclude Python scripts from language detection
-*.py linguist-detectable=false
+# Completely exclude all Python files
+*.py linguist-vendored=true
 
-# Mark R files as the primary detected language
-*.R linguist-detectable=true
-*.r linguist-detectable=true
+# Exclude data files (don't count towards language %)
+*.csv linguist-detectable=false
+*.txt linguist-detectable=false
+*.zip linguist-detectable=false
+*.json linguist-detectable=false
+
+# Explicitly force R files to be the primary language
+*.R linguist-detectable=true linguist-language=R
+*.r linguist-detectable=true linguist-language=R
